@@ -1,0 +1,251 @@
+/* Homepage */
+body {
+  background: white;
+  text-align: center;
+  image-rendering: auto;
+  margin: 2rem;
+}
+.homepage {
+    background-color: white;
+    border: 45px solid white; 
+    width: 1300px;
+    height: auto;
+    align-content: center;
+  }
+  .pina {
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 450px;
+  }
+h1 {
+  color: grey;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, monospace, sans-serif;
+	font-size: 1.2rem;
+	line-height: 0.1;
+	text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  color: grey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, monospace, sans-serif;
+	font-size: 1,1rem;
+	line-height: 0.1;
+	text-align: center;
+  text-transform: uppercase;
+  margin-block-end: 1rem;
+}
+h3 {
+  color: grey;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, monospace, sans-serif;
+	font-size: 1rem;
+	line-height: 0.1;
+	text-align: center;
+  text-transform: uppercase;
+  margin-block-start: 4rem;
+  margin-block-end: 4rem;
+}
+h4 {
+  color: #2EA38C;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, monospace, sans-serif;
+	font-size: 0.8rem;
+  margin-inline-start: 5rem;
+  line-height: 0.1;
+	text-align: left;
+  text-transform: uppercase;
+  margin-block-end: 2rem;
+  margin-block-start: 4rem;
+}
+h5 {
+  color: #405E5D;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, monospace, sans-serif;
+	font-size: 0.9rem;
+  margin-inline-start: 10rem;
+  line-height: 0.1;
+	text-align: left;
+  text-transform: uppercase;
+  margin-block-end: 10rem;
+}
+p {
+  color: grey;
+	font-family: 'didot';
+	font-size: 0.9rem;
+  margin-inline-start: 2rem;
+  line-height: 2;
+  text-align: justify;
+  margin-block-end: 3rem;
+  text-justify: inter-word;
+  width: 75rem;
+  }
+.sizeprints {
+
+  width: 330px
+}
+div.container a {
+    color: white;
+    font: 15px didot;
+    padding: 10px 10px;
+    position: center;
+    cursor: pointer;
+}
+.turquoise {
+    background: #405E5D;
+}
+ul { 
+  margin: 150px auto 0; 
+  padding: 0,1; 
+  display: table;
+  width: 1000px;
+  text-align: center;
+}
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 10px;
+	}
+}
+/* Kimono */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+/* contact form */
+#contact{
+  padding:10px 0 10px;
+}
+.contact-text{
+  margin:45px auto;
+}
+.mail-message-area{
+  width:100%;
+  padding:0 15px;
+}
+.mail-message{
+  width: 100%;
+  background:rgba(255,255,255, 0.8) !important;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  transition: all 0.7s;
+  margin:0 auto;
+  border-radius: 0;
+}
+.visible-message{
+  height:auto;
+  opacity: 1;
+  margin:25px auto 0;
+}
+
+/* Input Styles */
+.form{
+  width: 60%;
+  padding: 15px;
+  background:#f8f8f8;
+  border:1px solid rgba(0, 0, 0, 0.075);
+  margin-bottom:25px;
+  color:#727272 !important;
+  font-size:13px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.form:hover{
+  border:1px solid #405E5D;
+}
+
+.form:focus{
+  color: white;
+  outline: none;
+  border:1px solid #405E5D;
+}
+
+.textarea{
+  height: 200px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+/* Generic Button Styles */
+.button{
+  padding:8px 12px;
+  background:white;
+  display: block;
+  width:120px;
+  margin:10px 0 0px 0;
+  border-radius:3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align:center;
+  font-size:0.8em;
+  box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+
+.button:hover{
+  background:#405E5D;
+  color:white;
+}
+/* Send Button Styles */
+.form-btn{
+  width:180px;
+  display: block;
+  height: auto;
+  padding:15px;
+  color:#fff;
+  background:#405E5D;
+  border:none;
+  border-radius:3px;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin:auto;
+  box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+.form-btn:hover{
+  background:#72e6ce;
+  color: white;
+}
+.form-btn:active{
+  opacity: 0.9;
+}
+center{
+margin-top:330px;
+}
+input {
+  position: relative;
+  z-index: 9999;
+}
